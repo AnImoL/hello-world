@@ -1,3 +1,3 @@
 # hello-world
-The start of freedom in Terraria
-May it last forever
+The start of freedom in Terraria,
+may it last forever
