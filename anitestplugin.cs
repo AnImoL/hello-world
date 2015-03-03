@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TShockAPI; /* This requires TShockAPI.dll as reference */
-using Terraria; /* This requires TerrariaServer.exe as reference */
+using Terraria; /* This requires TerrariaServer.exe as reference  */
  
 namespace TestPlugin
 {
