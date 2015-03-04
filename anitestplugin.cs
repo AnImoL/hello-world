@@ -1,16 +1,15 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TShockAPI; /* This requires TShockAPI.dll as reference */
 using Terraria; /* This requires TerrariaServer.exe as reference  */
- 
+
 namespace TestPlugin
 {
-    [ApiVersion(1, 16)] /* The version of TerrariaServer.exe (or the API, currently 1.16.0.0) */
-    public class TestPlugin : TerrariaPlugin
+    [TerrariaApi.Server.ApiVersion(1, 16)] /* The version of TerrariaServer.exe (or the API, currently 1.16.0.0) */
+    public class TestPlugin : TerrariaApi.Server.TerrariaPlugin
     {
-        public TestPlugin(Main game) : base(game)
+        public TestPlugin(Main game)
+            : base(game)
         {
         }
         public override void Initialize()
