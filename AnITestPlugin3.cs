@@ -8,7 +8,7 @@ using Terraria; /* This requires TerrariaServer.exe as reference  */
 
 namespace AnITestPlugin3
 {
-    [TerrariaApi.Server.ApiVersion(1, 16)] /* The version of TerrariaServer.exe (or the API, currently 1.16.0.0) */
+    [TerrariaApi.Server.ApiVersion(1, 17)] /* The version of TerrariaServer.exe (or the API, currently 1.17.0.0) */
     public class AnITestPlugin3 : TerrariaApi.Server.TerrariaPlugin
     {
         public AnITestPlugin3(Main game)
@@ -20,7 +20,7 @@ namespace AnITestPlugin3
         }
         public override Version Version
         {
-            get { return new Version("1.0"); } /* YOu can change this as your version improves */
+            get { return new Version("1.1"); } /* YOu can change this as your version improves */
         }
         public override string Name
         {
