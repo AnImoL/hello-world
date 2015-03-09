@@ -6,3 +6,5 @@ Based on TShock.dll and its TerrariaServer.exe(API)
 
 sqlite3.dll stores important data
 nameofworld.wld stores the entire world, along with chests and their content
+
+TEditXna is a great program to edit .wld files
